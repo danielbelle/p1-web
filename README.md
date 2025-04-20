@@ -49,10 +49,11 @@ ao vídeo no link abaixo:
 - **Estrutura Básica**:
   ```html
   <!DOCTYPE html>
-  <html>
+  <html lang="pt-BR">
     <head>
-      <title>Título</title>
       <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Título</title>
     </head>
     <body>
       Conteúdo
