@@ -6,6 +6,10 @@ para a **Prova 1**.
 
 ---
 
+Os PDFs das aulas estão disponíveis na pasta [`/Aulas`](./Aulas).
+
+---
+
 **Autor:** Daniel Henrique Bellé
 
 ---
@@ -59,15 +63,15 @@ para a **Prova 1**.
   <form action="url" method="get|post"></form>
   ```
 
-| Tipo         | Descrição                 | Exemplo                                                         |
-| ------------ | ------------------------- | --------------------------------------------------------------- | --------- | -------------------------------------- |
-| **Texto**    | `<input type="text">`     | `<input type="text" name="nome">`                               |
-| **Senha**    | `<input type="password">` | `<input type="password" name="senha">`                          |
-| **Rádio**    | `<input type="radio">`    | `<input type="radio" name="sexo" value="M">`                    |
-| **Checkbox** | `<input type="checkbox">` | `<input type="checkbox" name="opcao" value="1">`                |
-| **Select**   | `<select>` com `<option>` | `<select name="estado"><option value="RS">RS</option></select>` |
-| **Textarea** | `<textarea>`              | `<textarea name="msg" rows="4"></textarea>`                     |
-| **Botões**   | `<input type="submit      | reset                                                           | button">` | `<input type="submit" value="Enviar">` |
+| Tipo         | Descrição                                                                | Exemplo                                                         |
+| ------------ | ------------------------------------------------------------------------ | --------------------------------------------------------------- |
+| **Texto**    | `<input type="text">`                                                    | `<input type="text" name="nome">`                               |
+| **Senha**    | `<input type="password">`                                                | `<input type="password" name="senha">`                          |
+| **Rádio**    | `<input type="radio">`                                                   | `<input type="radio" name="sexo" value="M">`                    |
+| **Checkbox** | `<input type="checkbox">`                                                | `<input type="checkbox" name="opcao" value="1">`                |
+| **Select**   | `<select>` com `<option>`                                                | `<select name="estado"><option value="RS">RS</option></select>` |
+| **Textarea** | `<textarea>`                                                             | `<textarea name="msg" rows="4"></textarea>`                     |
+| **Botões**   | `<input type="submit">`, `<input type="reset">`, `<input type="button">` | `<input type="submit" value="Enviar">`                          |
 
 - **Atributos**: `name`, `value`, `placeholder`, `required`, `readonly`,
   `disabled`, `checked`, `selected`.
