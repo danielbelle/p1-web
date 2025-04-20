@@ -14,6 +14,24 @@ Os PDFs das aulas estão disponíveis na pasta [`/Aulas`](./Aulas).
 
 ---
 
+## Como clonar um repositório do GitHub
+
+Para aprender como clonar um repositório do GitHub, assista ao vídeo no link
+abaixo:
+
+[Como clonar um repositório do GitHub](https://www.youtube.com/watch?v=5ctmK6fV1NQ)
+
+---
+
+## Como instalar, configurar e entender o GitHub
+
+Para aprender como instalar, configurar e entender mais sobre o GitHub, assista
+ao vídeo no link abaixo:
+
+[Como instalar, configurar e entender o GitHub](https://youtu.be/VmkEZ9qEPDU)
+
+---
+
 ## 1. Conceitos Básicos
 
 - **WWW**: Sistema de informação com:
