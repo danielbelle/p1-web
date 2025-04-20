@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Resumo DW1 - HTML</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+      }
+      h1 {
+        font-size: 14pt;
+        text-align: center;
+      }
+      h2 {
+        font-size: 12pt;
+        border-bottom: 1px solid #000;
+        margin-top: 5px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 5px 0;
+      }
+      th,
+      td {
+        border: 1px solid #000;
+        padding: 3px;
+        vertical-align: top;
+      }
+      .small {
+        font-size: 8pt;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Resumo Desenvolvimento Web 1 - HTML</h1>
+
+    <h2>1. Conceitos Básicos</h2>
+    <p>
+      <strong>WWW:</strong> Sistema de informação com URLs (localização), HTTP
+      (protocolo) e HTML (linguagem).
+    </p>
+    <p>
+      <strong>HTML:</strong> Linguagem de marcação com tags
+      (&lt;tag&gt;conteúdo&lt;/tag&gt;).
+    </p>
+    <p><strong>Estrutura Básica:</strong></p>
+    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Título&lt;/title&gt;
+    &lt;meta charset="UTF-8"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    Conteúdo
+&lt;/body&gt;
+&lt;/html&gt;</pre
+    >
+
+    <h2>2. Elementos HTML</h2>
+    <table>
+      <tr>
+        <th>Elemento</th>
+        <th>Descrição</th>
+        <th>Exemplo</th>
+      </tr>
+      <tr>
+        <td>Títulos</td>
+        <td>&lt;h1&gt; a &lt;h6&gt;</td>
+        <td>&lt;h1&gt;Título&lt;/h1&gt;</td>
+      </tr>
+      <tr>
+        <td>Parágrafos</td>
+        <td>&lt;p&gt;</td>
+        <td>&lt;p&gt;Texto&lt;/p&gt;</td>
+      </tr>
+      <tr>
+        <td>Links</td>
+        <td>&lt;a href="url"&gt;</td>
+        <td>&lt;a href="pagina.html"&gt;Link&lt;/a&gt;</td>
+      </tr>
+      <tr>
+        <td>Imagens</td>
+        <td>&lt;img src="img.jpg" alt="texto"&gt;</td>
+        <td>&lt;img src="foto.jpg" alt="Foto"&gt;</td>
+      </tr>
+      <tr>
+        <td>Listas</td>
+        <td>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</td>
+        <td>&lt;ul&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ul&gt;</td>
+      </tr>
+    </table>
+
+    <h2>3. Formulários</h2>
+    <p>
+      <strong>Estrutura:</strong> &lt;form action="url" method="get|post"&gt;
+    </p>
+    <table>
+      <tr>
+        <th>Tipo</th>
+        <th>Descrição</th>
+        <th>Exemplo</th>
+      </tr>
+      <tr>
+        <td>Texto</td>
+        <td>&lt;input type="text"&gt;</td>
+        <td>&lt;input type="text" name="nome"&gt;</td>
+      </tr>
+      <tr>
+        <td>Senha</td>
+        <td>&lt;input type="password"&gt;</td>
+        <td>&lt;input type="password" name="senha"&gt;</td>
+      </tr>
+      <tr>
+        <td>Rádio</td>
+        <td>&lt;input type="radio"&gt;</td>
+        <td>&lt;input type="radio" name="sexo" value="M"&gt;</td>
+      </tr>
+      <tr>
+        <td>Checkbox</td>
+        <td>&lt;input type="checkbox"&gt;</td>
+        <td>&lt;input type="checkbox" name="opcao" value="1"&gt;</td>
+      </tr>
+      <tr>
+        <td>Select</td>
+        <td>&lt;select&gt; com &lt;option&gt;</td>
+        <td>
+          &lt;select name="estado"&gt;&lt;option
+          value="RS"&gt;RS&lt;/option&gt;&lt;/select&gt;
+        </td>
+      </tr>
+      <tr>
+        <td>Textarea</td>
+        <td>&lt;textarea&gt;</td>
+        <td>&lt;textarea name="msg" rows="4"&gt;&lt;/textarea&gt;</td>
+      </tr>
+      <tr>
+        <td>Botões</td>
+        <td>&lt;input type="submit|reset|button"&gt;</td>
+        <td>&lt;input type="submit" value="Enviar"&gt;</td>
+      </tr>
+    </table>
+    <p class="small">
+      <strong>Atributos:</strong> name, value, placeholder, required, readonly,
+      disabled, checked, selected
+    </p>
+
+    <h2>4. Tabelas</h2>
+    <pre>
+&lt;table border="1"&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Cabeçalho&lt;/th&gt;
+        &lt;td&gt;Dado&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</pre
+    >
+    <p>
+      <strong>Atributos:</strong> colspan (mesclar colunas), rowspan (mesclar
+      linhas)
+    </p>
+
+    <h2>5. Multimídia</h2>
+    <p><strong>Vídeo:</strong></p>
+    <pre>
+&lt;video width="320" controls&gt;
+    &lt;source src="video.mp4" type="video/mp4"&gt;
+&lt;/video&gt;</pre
+    >
+    <p><strong>Áudio:</strong></p>
+    <pre>
+&lt;audio controls&gt;
+    &lt;source src="audio.mp3" type="audio/mpeg"&gt;
+&lt;/audio&gt;</pre
+    >
+
+    <h2>6. HTTP</h2>
+    <p><strong>Métodos:</strong> GET (dados na URL), POST (dados no corpo)</p>
+    <p>
+      <strong>Códigos:</strong> 200 (OK), 404 (Não encontrado), 500 (Erro
+      servidor)
+    </p>
+    <p><strong>HTTPS:</strong> Versão segura com criptografia</p>
+
+    <h2>7. Navegação</h2>
+    <p><strong>Links:</strong></p>
+    <ul class="small">
+      <li>Mesma pasta: &lt;a href="pagina.html"&gt;</li>
+      <li>Pasta abaixo: &lt;a href="pasta/pagina.html"&gt;</li>
+      <li>Pasta acima: &lt;a href="../pagina.html"&gt;</li>
+      <li>Raiz: &lt;a href="/pasta/pagina.html"&gt;</li>
+    </ul>
+
+    <h2>8. Outros</h2>
+    <p><strong>Favicon:</strong> &lt;link rel="icon" href="favicon.ico"&gt;</p>
+    <p><strong>iframe:</strong> &lt;iframe src="url"&gt;&lt;/iframe&gt;</p>
+    <p>
+      <strong>Caracteres especiais:</strong> &amp;nbsp; (espaço), &amp;lt;
+      (&lt;), &amp;gt; (&gt;)
+    </p>
+  </body>
+</html>
